@@ -1,11 +1,12 @@
-package br.com.nomedaempresa.iniciandojava.service;
+package br.com.nomedaempresa.iniciandojava.service.impl;
 
+import br.com.nomedaempresa.iniciandojava.service.interfac.IMessageService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 @Service
 @Qualifier("v1")
-public class MessageServiceImplV1 implements IMessageService{
+public class MessageServiceImplV1 implements IMessageService {
 
     @Override
     public String sayCustomMessage(String original) {

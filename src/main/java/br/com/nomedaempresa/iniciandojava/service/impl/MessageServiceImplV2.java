@@ -1,5 +1,6 @@
-package br.com.nomedaempresa.iniciandojava.service;
+package br.com.nomedaempresa.iniciandojava.service.impl;
 
+import br.com.nomedaempresa.iniciandojava.service.interfac.IMessageService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 

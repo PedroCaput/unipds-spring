@@ -37,4 +37,15 @@ public class Session {
     public void setStartTime(LocalTime startTime) { this.startTime = startTime; }
     public Conference getConference() { return conference; }
     public void setConference(Conference conference) { this.conference = conference; }
+
+    @Override
+    public String toString() {
+        return "Session{" +
+                "sessionId=" + sessionId +
+                ", title='" + title + '\'' +
+                ", startDate=" + startDate +
+                ", startTime=" + startTime +
+                ", conference=" + conference +
+                '}';
+    }
 }

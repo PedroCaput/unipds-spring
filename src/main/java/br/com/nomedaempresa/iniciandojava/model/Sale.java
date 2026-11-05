@@ -67,4 +67,15 @@ public class Sale {
     public void setQuantity(Integer quantity) {
         this.quantity = quantity;
     }
+
+    @Override
+    public String toString() {
+        return "Sale{" +
+                "saleId=" + saleId +
+                ", user=" + user +
+                ", product=" + product +
+                ", saleDate=" + saleDate +
+                ", quantity=" + quantity +
+                '}';
+    }
 }
